@@ -1,4 +1,4 @@
-package Java.Codigos.javaCarro;
+package javaCarro;
 
 public class Carro {
     private String marca;
