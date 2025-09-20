@@ -1,15 +1,26 @@
-package javaAtividades.Atividade09;  
+package javaAtividades.Atividade09;
+
   public class Aluno extends Pessoa{
             private int matricula;
+            
+            public Aluno(){}
 
             public Aluno(String nome, int idade, int matricula) {
                 super(nome, idade);
                 this.matricula = matricula;
             }
 
-            @Override
-            public void Imprime() {
+            public int getMatricula() {
+                return matricula;
+            }
+
+            public void setMatricula(int matricula) {
+                this.matricula = matricula;
+            }
+            
+            public void imprimeAluno() {
                 super.Imprime();
                 System.out.println("Matrícula: " + matricula);
             }
-    }
+
+        }

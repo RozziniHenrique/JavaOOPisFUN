@@ -23,7 +23,6 @@ public void imprimeAluno(){
 }
 public void imprimeFaltas(){
     System.out.println("Faltas: " + falta);
-
 }
 
 public void Resultado(){

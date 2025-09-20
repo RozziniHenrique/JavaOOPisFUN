@@ -1,16 +1,19 @@
 package javaAtividades.Atividade09;
 
 public class testaAtividade09 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
+        Pessoa pessoa1 = new Pessoa("Carlos Silva", 40);
         Aluno aluno1 = new Aluno("Ana Souza", 31, 1234);
         Aluno aluno2 = new Aluno("Bia Nunes", 25, 5678);
         Aluno aluno3 = new Aluno("Paulo Santos", 45, 9876);
 
-        aluno1.Imprime();
+        pessoa1.Imprime();
         System.out.println();
-        aluno2.Imprime();
+        aluno1.imprimeAluno();
         System.out.println();
-        aluno3.Imprime();
+        aluno2.imprimeAluno();
+        System.out.println();
+        aluno3.imprimeAluno();
     }
 }
 
