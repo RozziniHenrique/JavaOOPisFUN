@@ -64,12 +64,4 @@ public class Empregado {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-}
-
-/*
-7. Modificar a classe “Empregado” para que o código do Empregado seja AUTO-INCREMENTADO.
-Ou seja, o código do Empregado deverá ser automaticamente fornecido a partir do valor 1 para
-cada Empregado criado. Modifique os construtores da classe “Empregado” e a classe
-“TesteEmpregado” para que esta manutenção seja efetivada.
-Obs. As duas classes devem ser criadas dentro de um package chamado uscs.
- */
+}
