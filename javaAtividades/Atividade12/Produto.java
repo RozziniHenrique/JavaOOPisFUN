@@ -1,7 +1,7 @@
 package Java.Codigos.javaAtividades.Atividade12;
 
 public class Produto {
-    private String codigo;
+    private int codigo;
     private String descricao;
     private int quantidade;
     private static int totalProdutos = 0;
@@ -12,18 +12,18 @@ public class Produto {
         totalProdutos++;
     }
     // Construtor com parâmetros
-    public Produto(String codigo, String descricao, int quantidade) {
+    public Produto(int codigo, String descricao, int quantidade) {
         this.codigo = codigo;
         this.descricao = descricao;
         this.quantidade = quantidade;
         totalProdutos++;
 }
     // Métodos getters e setters
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
