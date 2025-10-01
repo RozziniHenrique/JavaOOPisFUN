@@ -3,9 +3,9 @@ package Java.Codigos.javaAtividades.Atividade12;
 public class testaProduto {
 
     public static void main(String[] args) {
-        Produto p1 = new Produto("1232", "Celular Samsung S8", 30);
+        Produto p1 = new Produto(1232, "Celular Samsung S8", 30);
         Produto p2 = new Produto();
-        p2.setCodigo("3456");
+        p2.setCodigo(3456);
         p2.setDescricao("Monitor Samsung SyncMaster");
         p2.setQuantidade(12);
 
